@@ -24,6 +24,11 @@ body {
 
 .main-nav a { text-decoration: none; color: #0d6efd; }
 
+.title {
+  font-size: clamp(25px, 5vw, 64px);
+  text-align: center;
+}
+
 .card-grid {
   max-width: 960px;
   margin: 0 auto;
@@ -37,6 +42,7 @@ body {
   border: 1px solid #dee2e6;
   border-radius: 8px;
   padding: 16px;
+  font-size: clamp(20px, 4vw, 25px);
 }
 
 @media (min-width: 992px) {
