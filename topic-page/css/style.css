@@ -73,3 +73,19 @@ footer {
     }
 }
 
+@media print {
+  /* 隐藏导航 */
+  .site-header {
+    display: none;
+  }
+
+  /* 隐藏页脚  */
+  footer {
+    display: none;
+  }
+
+  /* 正文单栏显示 */
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+}
